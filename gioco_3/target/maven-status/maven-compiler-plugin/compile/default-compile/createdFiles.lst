@@ -1,0 +1,10 @@
+com\gioco_3\Engine.class
+com\gioco_3\games\Caricamento_room.class
+com\gioco_3\parser\Parser.class
+com\gioco_3\type\CommandType.class
+com\gioco_3\type\Room.class
+com\gioco_3\games\FireHouseGame$1.class
+com\gioco_3\type\Command.class
+com\gioco_3\games\FireHouseGame.class
+com\gioco_3\parser\ParserOutput.class
+com\gioco_3\GameDescription.class
