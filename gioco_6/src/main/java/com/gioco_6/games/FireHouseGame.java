@@ -7,8 +7,6 @@ import com.gioco_6.type.CommandType;
 import com.gioco_6.type.Room;
 import java.io.PrintStream;
 import java.util.ListIterator;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class FireHouseGame extends GameDescription {
 
@@ -137,6 +135,7 @@ public class FireHouseGame extends GameDescription {
                         break;
                     case WHERE:
                         out.println(getCurrentRoom().getName());
+                        out.println(getCurrentRoom().getDescription());
                         break;
                     default:
                         break;
