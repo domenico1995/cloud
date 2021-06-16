@@ -32,7 +32,7 @@ public class Caricamento_room {
         bagno.setLook("E un bagno, non c'è niente di interessante");
         Room camera = new Room(4, "Camera", "Stai nella tua camera e come al solito è sporca");
         camera.setLook("Apparte il fumo e lo sporco non c'è niente.");
-        Room uscita = new Room(5, "Uscita", "Complimenti sei vivo ma il tuo condominio è in fiamme.");
+        Room uscita = new Room(5, "Porta", "Complimenti sei vivo ma il tuo condominio è in fiamme.");
         
         cucina.setSouth("Soggiorno");
         soggiorno.setNorth("Cucina");
@@ -40,7 +40,7 @@ public class Caricamento_room {
         corridoio.setWest("Soggiorno");
         corridoio.setSouth("Bagno");
         corridoio.setEast("Camera");
-        corridoio.setNorth("Uscita");
+        corridoio.setNorth("Porta");
         bagno.setNorth("Corridoio");
         camera.setWest("Corridoio");
         list.add(corridoio);

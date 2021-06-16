@@ -32,7 +32,7 @@ public class Caricamento_room {
         Room corridoio_destra_sud = new Room(6, "Corridoio destra sud", "non si vede niente");
         corridoio_destra_sud.setLook("ci sono stanze a ovest, sud e est");
         
-        Room stanza11 = new Room(7, "Stanza 11", "è piena di fumo.");
+        Room stanza11 = new Room(7, "Stanza scale", "Devi correre o morirai!");
         Room stanza12 = new Room(8, "Stanza 12", "è piena di fumo.");
         Room stanza13 = new Room(9, "Stanza 13", "è piena di fumo.");
         Room stanza21 = new Room(10, "Stanza 21", "è piena di fumo.");
@@ -42,7 +42,7 @@ public class Caricamento_room {
         Room stanza32 = new Room(13, "Stanza 32", "è piena di fumo.");
         Room stanza33 = new Room(14, "Stanza 33", "è piena di fumo.");
         Room stanza41 = new Room(15, "Stanza 41", "è piena di fumo.");
-        Room stanza42 = new Room(16, "Uscita", "Scendi le scale e vai al piano di sotto.");
+        Room stanza42 = new Room(16, "Scale giu", "Scendi le scale e vai al piano di sotto.");
         Room stanza43 = new Room(17, "Stanza 43", "è piena di fumo.");
         
         corridoio.setWest("Corridoio sinistra");
@@ -110,7 +110,7 @@ public class Caricamento_room {
         list.add(stanza43);
         
         setList(list);
-        setStanza(corridoio);
+        setStanza(stanza11);
     }
     
     public void setList(List<Room> list){

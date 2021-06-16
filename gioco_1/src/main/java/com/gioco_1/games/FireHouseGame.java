@@ -145,20 +145,7 @@ public class FireHouseGame extends GameDescription {
                 out.println(getCurrentRoom().getName());
                 out.println(getCurrentRoom().getDescription());
             }
-            if (getCurrentRoom().getName() == "Uscita") {
-                end(out);
-            }
+            
         }
-    }
-
-    
-    
-    private void end(PrintStream out) {
-        try {
-            Thread.sleep(100);
-        } catch (InterruptedException ex) {
-            Logger.getLogger(FireHouseGame.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        System.exit(0);
     }
 }

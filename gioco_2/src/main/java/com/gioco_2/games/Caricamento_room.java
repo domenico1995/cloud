@@ -49,7 +49,7 @@ public class Caricamento_room {
         Room stanza32 = new Room(13, "Stanza 32", "è piena di fumo.");
         Room stanza33 = new Room(14, "Stanza 33", "è piena di fumo.");
         Room stanza41 = new Room(15, "Stanza 41", "è piena di fumo.");
-        Room stanza42 = new Room(16, "Uscita", "Scendi le scale e vai al piano di sotto. Sta completamente bruciando");
+        Room stanza42 = new Room(16, "Scale giu", "Scendi le scale e vai al piano di sotto. Sta completamente bruciando");
         Room stanza43 = new Room(17, "Stanza 43", "è piena di fumo.");
         
         corridoio.setWest("Corridoio sinistra");
@@ -79,7 +79,7 @@ public class Caricamento_room {
         corridoio_destra_nord.setSouth("Corridoio destra");
         
         corridoio_sinistra_nord.setWest("Stanza 41");
-        corridoio_sinistra_nord.setNorth("Uscita");
+        corridoio_sinistra_nord.setNorth("Scale giu");
         corridoio_sinistra_nord.setEast("Stanza 43");
         corridoio_sinistra_nord.setSouth("Corridoio sinistra");
         

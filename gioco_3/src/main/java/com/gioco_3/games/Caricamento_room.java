@@ -45,11 +45,11 @@ public class Caricamento_room {
         Room stanza21 = new Room(10, "Stanza 21", "è piena di fuoco.");
         Room stanza22 = new Room(11, "Stanza 22", "è piena di fuoco.");
         Room stanza23 = new Room(12, "Stanza 23", "è piena di fuoco.");
-        Room stanza31 = new Room(12, "Uscita", "Scendi le scale e vai al piano di sotto. Sta completamente bruciando");
+        Room stanza31 = new Room(12, "Scale giu", "Scendi le scale e vai al piano di sotto. Sta completamente bruciando");
         Room stanza32 = new Room(13, "Stanza 32", "è piena di fuoco.");
         Room stanza33 = new Room(14, "Stanza 33", "è piena di fuoco.");
         Room stanza41 = new Room(15, "Stanza 41", "è piena di fuoco.");
-        Room stanza42 = new Room(16, "Stanza 42", "è piena di fuoco.");
+        Room stanza42 = new Room(16, "Stanza scale", "Sei appena sceso ed è piena di fuoco.");
         Room stanza43 = new Room(17, "Stanza 43", "è piena di fuoco.");
         
         corridoio.setWest("Corridoio sinistra");
@@ -73,13 +73,13 @@ public class Caricamento_room {
         corridoio_destra_sud.setEast("Stanza 23");
         corridoio_destra_sud.setNorth("Corridoio destra");
         
-        corridoio_destra_nord.setWest("Uscita");
+        corridoio_destra_nord.setWest("Scale giu");
         corridoio_destra_nord.setNorth("Stanza 32");
         corridoio_destra_nord.setEast("Stanza 33");
         corridoio_destra_nord.setSouth("Corridoio destra");
         
         corridoio_sinistra_nord.setWest("Stanza 41");
-        corridoio_sinistra_nord.setNorth("Stanza 42");
+        corridoio_sinistra_nord.setNorth("Stanza scale");
         corridoio_sinistra_nord.setEast("Stanza 43");
         corridoio_sinistra_nord.setSouth("Corridoio sinistra");
         

@@ -35,7 +35,7 @@ public class Caricamento_room {
         Room stanza12 = new Room(8, "Stanza 12", "è vuota");
         Room stanza13 = new Room(9, "Stanza 13", "è vuota");
         Room stanza41 = new Room(15, "Stanza 41", "è vuota");
-        Room stanza42 = new Room(16, "Stanza 42", "è vuota. Trova l'uscita.");
+        Room stanza42 = new Room(16, "Stanza scale", "è vuota. Trova l'uscita.");
         Room stanza43 = new Room(17, "Stanza 43", "è vuota");
         
         Room uscita = new Room(18, "Uscita", "Sei uscito. Ma è tutto un sogno, stavi facendo l'esame di MAP e stavi dormendo.");
@@ -56,7 +56,7 @@ public class Caricamento_room {
         corridoio_sinistra_sud.setNorth("Corridoio sinistra");
         
         corridoio_sinistra_nord.setWest("Stanza 41");
-        corridoio_sinistra_nord.setNorth("Stanza 42");
+        corridoio_sinistra_nord.setNorth("Stanza scale");
         corridoio_sinistra_nord.setEast("Stanza 43");
         corridoio_sinistra_nord.setSouth("Corridoio sinistra");
         
