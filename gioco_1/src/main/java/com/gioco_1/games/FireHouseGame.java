@@ -7,8 +7,6 @@ import com.gioco_1.type.CommandType;
 import com.gioco_1.type.Room;
 import java.io.PrintStream;
 import java.util.ListIterator;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class FireHouseGame extends GameDescription {
 
@@ -40,7 +38,8 @@ public class FireHouseGame extends GameDescription {
         getCommands().add(look);
         Command dove = new Command(CommandType.WHERE, "dove");
         dove.setAlias(new String[]{"Dove", "DOVE", "dove sono"});
-
+        getCommands().add(dove);
+        
         Caricamento_room c = new Caricamento_room();
         c.caricamento_room();
         setCurrentRoom(c.geStanza());

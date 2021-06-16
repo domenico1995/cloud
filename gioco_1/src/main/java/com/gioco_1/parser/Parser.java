@@ -15,7 +15,7 @@ public class Parser {
         return -1;
     }
 
-    public ParserOutput parse(String command, List<Command> commands) {
+    public ParserOutput parse(String command, List<Command> commands) {      
         String cmd = command.toLowerCase().trim();
         String[] tokens = cmd.split("\\s+");
         if (tokens.length > 0) {
