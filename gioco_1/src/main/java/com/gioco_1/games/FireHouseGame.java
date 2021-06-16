@@ -38,15 +38,8 @@ public class FireHouseGame extends GameDescription {
         Command look = new Command(CommandType.LOOK_AT, "osserva");
         look.setAlias(new String[]{"guarda", "vedi", "trova", "cerca", "descrivi"});
         getCommands().add(look);
-        Command pickup = new Command(CommandType.PICK_UP, "raccogli");
-        pickup.setAlias(new String[]{"prendi"});
-        getCommands().add(pickup);
-        Command open = new Command(CommandType.OPEN, "apri");
-        open.setAlias(new String[]{});
-        getCommands().add(open);
-        Command push = new Command(CommandType.PUSH, "premi");
-        push.setAlias(new String[]{"spingi", "attiva"});
-        getCommands().add(push);
+        Command dove = new Command(CommandType.WHERE, "dove");
+        dove.setAlias(new String[]{"Dove", "DOVE", "dove sono"});
 
         Caricamento_room c = new Caricamento_room();
         c.caricamento_room();
@@ -134,6 +127,7 @@ public class FireHouseGame extends GameDescription {
                         break;
                     case WHERE:
                         out.println(getCurrentRoom().getName());
+                        out.println(getCurrentRoom().getDescription());
                         break;
                     default:
                         break;
