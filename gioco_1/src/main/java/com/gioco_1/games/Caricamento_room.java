@@ -43,6 +43,7 @@ public class Caricamento_room {
         corridoio.setNorth("Porta");
         bagno.setNorth("Corridoio");
         camera.setWest("Corridoio");
+        uscita.setSouth("Corridoio");
         list.add(corridoio);
         list.add(soggiorno);
         list.add(cucina);
