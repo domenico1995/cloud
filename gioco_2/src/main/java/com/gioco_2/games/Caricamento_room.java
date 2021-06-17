@@ -119,6 +119,7 @@ public class Caricamento_room {
         list.add(stanza41);
         list.add(stanza42);
         list.add(stanza43);
+        list.add(appartamento);
         
         setList(list);
         setStanza(corridoio);
